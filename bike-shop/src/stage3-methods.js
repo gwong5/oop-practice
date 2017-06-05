@@ -24,10 +24,6 @@ function Bike() {
   }
 }
 
-function Frame() {
-  // your code here
-}
-
 function Tire() {
   this.flat = false
 
@@ -46,6 +42,5 @@ function Tire() {
 
 module.exports = {
   Bike: Bike,
-  Frame: Frame,
   Tire: Tire
 }
