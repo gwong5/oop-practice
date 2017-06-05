@@ -7,17 +7,14 @@ const myBike = {
     "style": "cruiser"
   },
   "brakes": {
-    "back": "true",
+    "back": true,
     "front": false
   },
   "tires": {
     "diameter": 22,
     "type": "fat"
   },
-  "rings": {
-    "front": 2,
-    "back": 5
-  }
+  "rings": [2, 5]
 }
 
 module.exports = myBike
