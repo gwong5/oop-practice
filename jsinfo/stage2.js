@@ -35,4 +35,15 @@ function Accumulator(startingValue) {
 
 // Create an extendable calculator
 
+function Calculator() {
+  this.calculate = function(string) {
+    const i = string.split(' ')
+    return Calculator[i[1]](+i[0], +i[2])
+  }
 
+  this.addMethod = function(name, func) {
+    Calculator[name] = func
+  }
+}
+
+// tests: http://plnkr.co/edit/2aPxM5lQU7MqwnFoanEz?p=preview
