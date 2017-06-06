@@ -58,7 +58,7 @@ Clock.prototype.start = function() {
 
 // Rewrite to class
 
-class Cluck {
+class Clock {
   constructor({ template }) {
     this._template = template
   }
